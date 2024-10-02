@@ -35,7 +35,7 @@ You can find a complete list of my personal projects, with a brief description a
 ### ImageToMapMC
 
  - 🎯 This project is a desktop application for Linux and Windows to generate Minecraft maps from images. It can be used by server administrators to generate the `.dat` files to import into their servers. It can also be used to generate schematics to build the map in survival mode.
- - 🛠 The application wsa developed in the **C++** programming language, using the [wxWidgets](https://www.wxwidgets.org/) GUI library.
+ - 🛠 The application was developed in the **C++** programming language, using the [wxWidgets](https://www.wxwidgets.org/) GUI library.
  - 🧬 Source code repository: [ImageToMapMC](https://github.com/AgustinSRG/ImageToMapMC)
 
 ### Showdown ChatBot
