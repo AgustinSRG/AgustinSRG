@@ -85,7 +85,7 @@ You can find a complete list of my personal projects, with a brief description a
 
 ### Basic request library
 
- - 🎯 This project is a basic request library aimed to be used by the frontend of web applications to comminute with the backend. It provides a way to define API bindings (to ensure parameters are the correct types and error are handled thanks to TypeScript) and it also provides named requests, to automatically abort duplicate requests.
+ - 🎯 This project is a basic request library aimed to be used by the frontend of web applications to communicate with the backend. It provides a way to define API bindings (to ensure parameters are the correct types and error are handled thanks to TypeScript) and it also provides named requests, to automatically abort duplicate requests.
  - 🛠 Developed in **TypeScript**.
  - 🧬 Source code repositories: [request-browser](https://github.com/AgustinSRG/request-browser) | [request-axios](https://github.com/AgustinSRG/request-axios)
 
