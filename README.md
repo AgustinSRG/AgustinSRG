@@ -24,13 +24,18 @@ You can find a complete list of my personal projects, with a brief description a
 - 🎯 PersonalMediaVault is an open source tool you can use to create an encrypted, easy to backup and easy to access media gallery. It is a privacy and usability focused project, prioritizing keeping media assets private while being able to access them in a convenient and efficient way.
 - 🛠 Developed as a web application in the **Go** programming language for the backend components, and **HTML** + **CSS** + **TypeScript** + **Vue** for the user interface. The project also includes a product website powered by **Hugo** + **Docsy** and a CLI tool developed in the **Rust** programming language.
 - 🌐 [PersonalMediaVault product website](https://agustinsrg.github.io/pmv-site/)
-- 🧬 Source code repositories: [Main repository](https://github.com/AgustinSRG/PersonalMediaVault) | [Website source code](https://github.com/AgustinSRG/pmv-site) | [CLI tool source code](https://github.com/AgustinSRG/pmv-cli) | [Encrypted storage library](https://github.com/AgustinSRG/encrypted-storage)
+- 🧬 Main repository: [PersonalMediaVault](https://github.com/AgustinSRG/PersonalMediaVault)
+- 🧬 Website source code: [pmv-site](https://github.com/AgustinSRG/pmv-site)
+- 🧬 CLI tool source code: [pmv-cli](https://github.com/AgustinSRG/pmv-cli)
+- 🧬 Encrypted storage library: [encrypted-storage](https://github.com/AgustinSRG/encrypted-storage)
 
 ### RTMP server and video streaming tools
 
 - 🎯 This project consists on multiple backend tools for developing video streaming platforms. This includes an **RTMP** (Real Time Messaging Protocol) server and several tools to encode and server streaming in the **HLS** (HTTP Live Streaming) format.
 - 🛠 The tools were developed in the **Go** programming language.
-- 🧬 Source code repositories: [rtmp-server](https://github.com/AgustinSRG/rtmp-server) | [tcp-video-streaming](https://github.com/AgustinSRG/tcp-video-streaming)
+- 🧬 RTMP server: [rtmp-server](https://github.com/AgustinSRG/rtmp-server)
+- 🧬 Streaming infrastructure tools: [tcp-video-streaming](https://github.com/AgustinSRG/tcp-video-streaming)
+- 🧬 HLS WebSocket CDN: [hls-websocket-cdn](https://github.com/AgustinSRG/hls-websocket-cdn)
 
 ### ImageToMapMC
 
@@ -48,14 +53,19 @@ You can find a complete list of my personal projects, with a brief description a
 
 - 🎯 This project is a generic object relational mapping framework for TypeScript and NodeJS. The main purpose is to abstract the database logic from the web application, allowing to change from very different databases (like MySQL and MongoDB) simply changing the data source of the ORM. It is promise-based and the drivers are separated from the core, meaning you only need to import the ones you want to use.
 - 🛠 Developed in **TypeScript**.
-- 🧬 Source code repositories: [tsbean-orm](https://github.com/AgustinSRG/tsbean-orm) | [tsbean-driver-mysql](https://github.com/AgustinSRG/tsbean-driver-mysql) | [tsbean-driver-postgres](https://github.com/AgustinSRG/tsbean-driver-postgres) | [tsbean-driver-mongo](https://github.com/AgustinSRG/tsbean-driver-mongo) | [tsbean-driver-template](https://github.com/AgustinSRG/tsbean-driver-template) | [tsbean-codegen](https://github.com/AgustinSRG/tsbean-codegen)
+- 🌐 [Code generation tool](https://agustinsrg.github.io/tsbean-codegen/)
+- 🧬 Main repository: [tsbean-orm](https://github.com/AgustinSRG/tsbean-orm)
+- 🧬 Drivers: [tsbean-driver-mysql](https://github.com/AgustinSRG/tsbean-driver-mysql) | [tsbean-driver-postgres](https://github.com/AgustinSRG/tsbean-driver-postgres) | [tsbean-driver-mongo](https://github.com/AgustinSRG/tsbean-driver-mongo)
+- 🧬 Driver template: [tsbean-driver-template](https://github.com/AgustinSRG/tsbean-driver-template)
+- 🧬 Code generation tool: [tsbean-codegen](https://github.com/AgustinSRG/tsbean-codegen)
 
-### Smart Contract Wrapper
+### WebRTC CDN
 
-- 🎯 This project is a TypeScript library that can be used to simplify the interaction process with Ethereum smart contracts. You can generate a wrapper from the contract ABI, allowing to interact with the smart contract calling the wrapper methods.
-- 🛠 Developed in **TypeScript**.
-- 🌐 [Smart contract wrapper generator](https://agustinsrg.github.io/smart-contract-wrapper/codegen/)
-- 🧬 Source code repository: [smart-contract-wrapper](https://github.com/AgustinSRG/smart-contract-wrapper)
+- 🎯 This project is a media content delivery network based on the WebRTC protocol. It allows for sending and receiving media streams in real time from the Browser. The use of a CDN instead of peer-to-peer communication can be useful to reduce the bandwidth requirements of the users. For example, in a call of 10 people, instead of having to send the media stream to all the 9 other participants, it sends it to the CDN, which distributes it to the rest of participants.
+- 🛠 Server developed in the **Go** programming language. Client developed in **TypeScript**.
+- 🧬 Main repository: [webrtc-cdn](https://github.com/AgustinSRG/webrtc-cdn)
+- 🧬 JavaScript client: [webrtc-cdn-client](https://github.com/AgustinSRG/webrtc-cdn-client)
+- 🧬 Experiments: [webrtc-publish](https://github.com/AgustinSRG/webrtc-publish) | [webrtc-forwarder](https://github.com/AgustinSRG/webrtc-forwarder) | [webrtc-video-filter](https://github.com/AgustinSRG/webrtc-video-filter)
 
 </details>
 
@@ -64,12 +74,12 @@ You can find a complete list of my personal projects, with a brief description a
 <details>
     <summary>📂 Other projects (Click to expand) </summary>
 
-### WebRTC CDN
+### Smart Contract Wrapper
 
-- 🎯 This project is a media content delivery network based on the WebRTC protocol. It allows for sending and receiving media streams in real time from the Browser. The use of a CDN instead of peer-to-peer communication can be useful to reduce the bandwidth requirements of the users. For example, in a call of 10 people, instead of having to send the media stream to all the 9 other participants, it sends it to the CDN, which distributes it to the rest of participants.
-- 🛠 Server developed in the **Go** programming language. Client developed in **TypeScript**.
-- 🧬 Source code repositories: [Server](https://github.com/AgustinSRG/webrtc-cdn) | [Client](https://github.com/AgustinSRG/webrtc-cdn-client)
-- 🧬 Experiments: [webrtc-publish](https://github.com/AgustinSRG/webrtc-publish) | [webrtc-forwarder](https://github.com/AgustinSRG/webrtc-forwarder) | [webrtc-video-filter](https://github.com/AgustinSRG/webrtc-video-filter)
+- 🎯 This project is a TypeScript library that can be used to simplify the interaction process with Ethereum smart contracts. You can generate a wrapper from the contract ABI, allowing to interact with the smart contract calling the wrapper methods.
+- 🛠 Developed in **TypeScript**.
+- 🌐 [Smart contract wrapper generator](https://agustinsrg.github.io/smart-contract-wrapper/codegen/)
+- 🧬 Source code repository: [smart-contract-wrapper](https://github.com/AgustinSRG/smart-contract-wrapper)
 
 ### Async tools for JavaScript
 
@@ -106,6 +116,7 @@ You can find a complete list of my personal projects, with a brief description a
 | Project                                                                                | Category    | Language       | Description                                                                                                      |
 | -------------------------------------------------------------------------------------- | ----------- | -------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **[genv](https://github.com/AgustinSRG/genv)**                                         | **Library** | **Go**         | Golang library to read and parse environment variables.                                                          |
+| **[glog](https://github.com/AgustinSRG/glog)**                                         | **Library** | **Go**         | Golang library for logging.                                                                                      |
 | **[go-simple-rpc-message](https://github.com/AgustinSRG/go-simple-rpc-message)**       | **Library** | **Go**         | Golang library that implements a very simple RPC message system to be used in a text-based communication system. |
 | **[go-child-process-manager](https://github.com/AgustinSRG/go-child-process-manager)** | **Library** | **Go**         | Golang library to ensure all the child processes are killed if the main process is killed.                       |
 | **[crystals-dilithium-js](https://github.com/AgustinSRG/crystals-dilithium-js)**       | **Library** | **JavaScript** | Javascript implementation of post-quantum signature algorithm: CRYSTALS-Dilithium                                |
