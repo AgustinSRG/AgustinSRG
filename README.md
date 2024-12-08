@@ -113,15 +113,16 @@ You can find a complete list of my personal projects, with a brief description a
 
 ### Other small libraries and tools
 
-| Project                                                                                | Category    | Language       | Description                                                                                                      |
-| -------------------------------------------------------------------------------------- | ----------- | -------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **[genv](https://github.com/AgustinSRG/genv)**                                         | **Library** | **Go**         | Golang library to read and parse environment variables.                                                          |
-| **[glog](https://github.com/AgustinSRG/glog)**                                         | **Library** | **Go**         | Golang library for logging.                                                                                      |
-| **[go-simple-rpc-message](https://github.com/AgustinSRG/go-simple-rpc-message)**       | **Library** | **Go**         | Golang library that implements a very simple RPC message system to be used in a text-based communication system. |
-| **[go-child-process-manager](https://github.com/AgustinSRG/go-child-process-manager)** | **Library** | **Go**         | Golang library to ensure all the child processes are killed if the main process is killed.                       |
-| **[crystals-dilithium-js](https://github.com/AgustinSRG/crystals-dilithium-js)**       | **Library** | **JavaScript** | Javascript implementation of post-quantum signature algorithm: CRYSTALS-Dilithium                                |
-| **[Text-Transform](https://github.com/AgustinSRG/Text-Transform)**                     | **Library** | **JavaScript** | Library to build simple text transform tools you can run in your browser.                                        |
-| **[psim-log-to-replay](https://github.com/AgustinSRG/psim-log-to-replay)**             | **Tool**    | **JavaScript** | Simple web tool to turn a Pokemon Showdown battle log into a replay.                                             |
-| **[eth-test-node-action](https://github.com/AgustinSRG/eth-test-node-action)**         | **CI**      | **Shell**      | GitHub Action to setup an Ethereum node to test Smart Contracts.                                                 |
+| Project                                                                                  | Category    | Language       | Description                                                                                                      |
+| ---------------------------------------------------------------------------------------- | ----------- | -------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **[genv](https://github.com/AgustinSRG/genv)**                                           | **Library** | **Go**         | Golang library to read and parse environment variables.                                                          |
+| **[glog](https://github.com/AgustinSRG/glog)**                                           | **Library** | **Go**         | Golang library for logging.                                                                                      |
+| **[go-simple-rpc-message](https://github.com/AgustinSRG/go-simple-rpc-message)**         | **Library** | **Go**         | Golang library that implements a very simple RPC message system to be used in a text-based communication system. |
+| **[go-child-process-manager](https://github.com/AgustinSRG/go-child-process-manager)**   | **Library** | **Go**         | Golang library to ensure all the child processes are killed if the main process is killed.                       |
+| **[go-tls-certificate-loader](https://github.com/AgustinSRG/go-tls-certificate-loader)** | **Library** | **Go**         | Golang library to load TLS certificate and key.                                                                  |
+| **[crystals-dilithium-js](https://github.com/AgustinSRG/crystals-dilithium-js)**         | **Library** | **JavaScript** | Javascript implementation of post-quantum signature algorithm: CRYSTALS-Dilithium                                |
+| **[Text-Transform](https://github.com/AgustinSRG/Text-Transform)**                       | **Library** | **JavaScript** | Library to build simple text transform tools you can run in your browser.                                        |
+| **[psim-log-to-replay](https://github.com/AgustinSRG/psim-log-to-replay)**               | **Tool**    | **JavaScript** | Simple web tool to turn a Pokemon Showdown battle log into a replay.                                             |
+| **[eth-test-node-action](https://github.com/AgustinSRG/eth-test-node-action)**           | **CI**      | **Shell**      | GitHub Action to setup an Ethereum node to test Smart Contracts.                                                 |
 
 </details>
