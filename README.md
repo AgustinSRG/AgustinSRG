@@ -37,6 +37,15 @@ You can find a complete list of my personal projects, with a brief description a
 - 🧬 Streaming infrastructure tools: [tcp-video-streaming](https://github.com/AgustinSRG/tcp-video-streaming)
 - 🧬 HLS WebSocket CDN: [hls-websocket-cdn](https://github.com/AgustinSRG/hls-websocket-cdn)
 
+### WebRTC CDN
+
+- 🎯 This project is a media content delivery network based on the WebRTC protocol. It allows for sending and receiving media streams in real time from the Browser. The use of a CDN instead of peer-to-peer communication can be useful to reduce the bandwidth requirements of the users. For example, in a call of 10 people, instead of having to send the media stream to all the 9 other participants, it sends it to the CDN, which distributes it to the rest of participants.
+- 🛠 Server developed in the **Go** programming language. Client developed in **TypeScript**.
+- 🧬 Main repository: [webrtc-cdn](https://github.com/AgustinSRG/webrtc-cdn)
+- 🧬 Utilities: [turn-server](https://github.com/AgustinSRG/turn-server)
+- 🧬 JavaScript client: [webrtc-cdn-client](https://github.com/AgustinSRG/webrtc-cdn-client)
+- 🧬 Experiments: [webrtc-publish](https://github.com/AgustinSRG/webrtc-publish) | [webrtc-forwarder](https://github.com/AgustinSRG/webrtc-forwarder) | [webrtc-video-filter](https://github.com/AgustinSRG/webrtc-video-filter)
+
 ### ImageToMapMC
 
 - 🎯 This project is a desktop application for Linux and Windows to generate Minecraft maps from images. It can be used by server administrators to generate the `.dat` files to import into their servers. It can also be used to generate schematics to build the map in survival mode.
@@ -59,14 +68,12 @@ You can find a complete list of my personal projects, with a brief description a
 - 🧬 Driver template: [tsbean-driver-template](https://github.com/AgustinSRG/tsbean-driver-template)
 - 🧬 Code generation tool: [tsbean-codegen](https://github.com/AgustinSRG/tsbean-codegen)
 
-### WebRTC CDN
+### Smart Contract Wrapper
 
-- 🎯 This project is a media content delivery network based on the WebRTC protocol. It allows for sending and receiving media streams in real time from the Browser. The use of a CDN instead of peer-to-peer communication can be useful to reduce the bandwidth requirements of the users. For example, in a call of 10 people, instead of having to send the media stream to all the 9 other participants, it sends it to the CDN, which distributes it to the rest of participants.
-- 🛠 Server developed in the **Go** programming language. Client developed in **TypeScript**.
-- 🧬 Main repository: [webrtc-cdn](https://github.com/AgustinSRG/webrtc-cdn)
-- 🧬 Utilities: [turn-server](https://github.com/AgustinSRG/turn-server)
-- 🧬 JavaScript client: [webrtc-cdn-client](https://github.com/AgustinSRG/webrtc-cdn-client)
-- 🧬 Experiments: [webrtc-publish](https://github.com/AgustinSRG/webrtc-publish) | [webrtc-forwarder](https://github.com/AgustinSRG/webrtc-forwarder) | [webrtc-video-filter](https://github.com/AgustinSRG/webrtc-video-filter)
+- 🎯 This project is a TypeScript library that can be used to simplify the interaction process with Ethereum smart contracts. You can generate a wrapper from the contract ABI, allowing to interact with the smart contract calling the wrapper methods.
+- 🛠 Developed in **TypeScript**.
+- 🌐 [Smart contract wrapper generator](https://agustinsrg.github.io/smart-contract-wrapper/codegen/)
+- 🧬 Source code repository: [smart-contract-wrapper](https://github.com/AgustinSRG/smart-contract-wrapper)
 
 </details>
 
@@ -75,55 +82,23 @@ You can find a complete list of my personal projects, with a brief description a
 <details>
     <summary>📂 Other projects (Click to expand) </summary>
 
-### Smart Contract Wrapper
-
-- 🎯 This project is a TypeScript library that can be used to simplify the interaction process with Ethereum smart contracts. You can generate a wrapper from the contract ABI, allowing to interact with the smart contract calling the wrapper methods.
-- 🛠 Developed in **TypeScript**.
-- 🌐 [Smart contract wrapper generator](https://agustinsrg.github.io/smart-contract-wrapper/codegen/)
-- 🧬 Source code repository: [smart-contract-wrapper](https://github.com/AgustinSRG/smart-contract-wrapper)
-
-### Async tools for JavaScript
-
-- 🎯 This project is a JavaScript library that provides tools to work with asynchronous functions in JavaScript. It includes and async interval (waits for the async function to end before running it again), an async queue, an async semaphore and an async value provider.
-- 🛠 Developed in **TypeScript**.
-- 🧬 Source code repository: [async-tools](https://github.com/AgustinSRG/async-tools)
-
-### JavaScript object sanitizer
-
-- 🎯 This project is a JavaScript library that provides a convenient way to sanitize untrusted objects (for example, the ones provided by the user). Ensuring an object follows an schema allows for accessing its properties without the possibility of crashes or unexpected behaviors.
-- 🛠 Developed in **TypeScript**.
-- 🧬 Source code repository: [javascript-object-sanitizer](https://github.com/AgustinSRG/javascript-object-sanitizer)
-
-### Basic request library
-
-- 🎯 This project is a basic request library aimed to be used by the frontend of web applications to communicate with the backend. It provides a way to define API bindings (to ensure parameters are the correct types and error are handled thanks to TypeScript) and it also provides named requests, to automatically abort duplicate requests.
-- 🛠 Developed in **TypeScript**.
-- 🧬 Source code repositories: [request-browser](https://github.com/AgustinSRG/request-browser) | [request-axios](https://github.com/AgustinSRG/request-axios)
-
-### Pokemon Showdown bot library
-
-- 🎯 This project is a library for bots to connect to [Pokémon Showdown](https://pokemonshowdown.com/) servers and be able to play battles.
-- 🛠 Developed in **TypeScript**.
-- 🧬 Source code repositories: [ps-bot-lib](https://github.com/AgustinSRG/ps-bot-lib) | [ps-battle-bot-lib](https://github.com/AgustinSRG/ps-battle-bot-lib)
-
-### Parallel request controller
-
-- 🎯 This project is a backend component to control parallel requests. The main use case for this component is to impose limits on parallel requests when using multiple web servers for horizontal scaling.
-- 🛠 Server in the **Go** programming language. Client developed in **TypeScript**.
-- 🧬 Source code repository: [parallel-request-controller](https://github.com/AgustinSRG/parallel-request-controller)
-
-### Other small libraries and tools
-
-| Project                                                                                  | Category    | Language       | Description                                                                                                      |
-| ---------------------------------------------------------------------------------------- | ----------- | -------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **[genv](https://github.com/AgustinSRG/genv)**                                           | **Library** | **Go**         | Golang library to read and parse environment variables.                                                          |
-| **[glog](https://github.com/AgustinSRG/glog)**                                           | **Library** | **Go**         | Golang library for logging.                                                                                      |
-| **[go-simple-rpc-message](https://github.com/AgustinSRG/go-simple-rpc-message)**         | **Library** | **Go**         | Golang library that implements a very simple RPC message system to be used in a text-based communication system. |
-| **[go-child-process-manager](https://github.com/AgustinSRG/go-child-process-manager)**   | **Library** | **Go**         | Golang library to ensure all the child processes are killed if the main process is killed.                       |
-| **[go-tls-certificate-loader](https://github.com/AgustinSRG/go-tls-certificate-loader)** | **Library** | **Go**         | Golang library to load TLS certificate and key.                                                                  |
-| **[crystals-dilithium-js](https://github.com/AgustinSRG/crystals-dilithium-js)**         | **Library** | **JavaScript** | Javascript implementation of post-quantum signature algorithm: CRYSTALS-Dilithium                                |
-| **[Text-Transform](https://github.com/AgustinSRG/Text-Transform)**                       | **Library** | **JavaScript** | Library to build simple text transform tools you can run in your browser.                                        |
-| **[psim-log-to-replay](https://github.com/AgustinSRG/psim-log-to-replay)**               | **Tool**    | **JavaScript** | Simple web tool to turn a Pokemon Showdown battle log into a replay.                                             |
-| **[eth-test-node-action](https://github.com/AgustinSRG/eth-test-node-action)**           | **CI**      | **Shell**      | GitHub Action to setup an Ethereum node to test Smart Contracts.                                                 |
+| Project                                                                                      | Category    | Language       | Description                                                                                                                                                                                                                                                        |
+| -------------------------------------------------------------------------------------------- | ----------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **[genv](https://github.com/AgustinSRG/genv)**                                               | **Library** | **Go**         | Golang library to read and parse environment variables.                                                                                                                                                                                                            |
+| **[glog](https://github.com/AgustinSRG/glog)**                                               | **Library** | **Go**         | Golang library for logging.                                                                                                                                                                                                                                        |
+| **[go-simple-rpc-message](https://github.com/AgustinSRG/go-simple-rpc-message)**             | **Library** | **Go**         | Golang library that implements a very simple RPC message system to be used in a text-based communication system.                                                                                                                                                   |
+| **[go-child-process-manager](https://github.com/AgustinSRG/go-child-process-manager)**       | **Library** | **Go**         | Golang library to ensure all the child processes are killed if the main process is killed.                                                                                                                                                                         |
+| **[go-tls-certificate-loader](https://github.com/AgustinSRG/go-tls-certificate-loader)**     | **Library** | **Go**         | Golang library to load TLS certificate and key.                                                                                                                                                                                                                    |
+| **[parallel-request-controller](https://github.com/AgustinSRG/parallel-request-controller)** | **Tool**    | **Go**         | Backend component to control parallel requests. The main use case for this component is to impose limits on parallel requests when using multiple web servers for horizontal scaling.                                                                              |
+| **[async-tools](https://github.com/AgustinSRG/async-tools)**                                 | **Library** | **JavaScript** | JavaScript library that provides tools to work with asynchronous functions in JavaScript. It includes and async interval (waits for the async function to end before running it again), an async queue, an async semaphore and an async value provider.            |
+| **[javascript-object-sanitizer](https://github.com/AgustinSRG/javascript-object-sanitizer)** | **Library** | **JavaScript** | JavaScript library that provides a convenient way to sanitize untrusted objects (for example, the ones provided by the user). Ensuring an object follows an schema allows for accessing its properties without the possibility of crashes or unexpected behaviors. |
+| **[request-browser](https://github.com/AgustinSRG/request-browser)**                         | **Library** | **JavaScript** | Basic request library aimed to be used by the frontend of web applications to communicate with the backend. Made for the browser.                                                                                                                                  |
+| **[request-axios](https://github.com/AgustinSRG/request-axios)**                             | **Library** | **JavaScript** | Basic request library aimed to be used by the frontend of web applications to communicate with the backend. Made for NodeJS with Axios.                                                                                                                            |
+| **[crystals-dilithium-js](https://github.com/AgustinSRG/crystals-dilithium-js)**             | **Library** | **JavaScript** | Javascript implementation of post-quantum signature algorithm: CRYSTALS-Dilithium                                                                                                                                                                                  |
+| **[Text-Transform](https://github.com/AgustinSRG/Text-Transform)**                           | **Library** | **JavaScript** | Library to build simple text transform tools you can run in your browser.                                                                                                                                                                                          |
+| **[ps-bot-lib](https://github.com/AgustinSRG/ps-bot-lib)**                                   | **Library** | **JavaScript** | Library for bots to connect to [Pokémon Showdown](https://pokemonshowdown.com/).                                                                                                                                                                                   |
+| **[ps-battle-bot-lib](https://github.com/AgustinSRG/ps-battle-bot-lib)**                     | **Library** | **JavaScript** | Library for [Pokémon Showdown](https://pokemonshowdown.com/) bots to be able to play battles.                                                                                                                                                                      |
+| **[psim-log-to-replay](https://github.com/AgustinSRG/psim-log-to-replay)**                   | **Tool**    | **JavaScript** | Simple web tool to turn a Pokemon Showdown battle log into a replay.                                                                                                                                                                                               |
+| **[eth-test-node-action](https://github.com/AgustinSRG/eth-test-node-action)**               | **CI**      | **Shell**      | GitHub Action to setup an Ethereum node to test Smart Contracts.                                                                                                                                                                                                   |
 
 </details>
