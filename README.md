@@ -33,7 +33,7 @@ You can find a complete list of my personal projects, with a brief description a
 
 - 🎯 This project consists on multiple backend tools for developing video streaming platforms. This includes an **RTMP** (Real Time Messaging Protocol) server and several tools to encode and server streaming in the **HLS** (HTTP Live Streaming) format.
 - 🛠 The tools were developed in the **Go** programming language.
-- 🧬 RTMP server: [rtmp-server](https://github.com/AgustinSRG/rtmp-server)
+- 🧬 RTMP server: [rtmp-server](https://github.com/AgustinSRG/rtmp-server), [rtmp-server-rs](https://github.com/AgustinSRG/rtmp-server-rs)
 - 🧬 Streaming infrastructure tools: [tcp-video-streaming](https://github.com/AgustinSRG/tcp-video-streaming)
 - 🧬 HLS WebSocket CDN: [hls-websocket-cdn](https://github.com/AgustinSRG/hls-websocket-cdn)
 
@@ -107,7 +107,7 @@ You can find a complete list of my personal projects, with a brief description a
 
 ### Other minor projects
 
-| Project                                                                                      | Language       | Description                                                                                                                                                                           |
+| Repository                                                                                   | Language       | Description                                                                                                                                                                           |
 | -------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[parallel-request-controller](https://github.com/AgustinSRG/parallel-request-controller)** | **Go**         | Backend component to control parallel requests. The main use case for this component is to impose limits on parallel requests when using multiple web servers for horizontal scaling. |
 | **[psim-log-to-replay](https://github.com/AgustinSRG/psim-log-to-replay)**                   | **JavaScript** | Simple web tool to turn a Pokemon Showdown battle log into a replay.                                                                                                                  |
