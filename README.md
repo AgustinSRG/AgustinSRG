@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Agustín San Román
 
 - 💼 Working as a software engineer for [AIR Institute](https://air-institute.com/).
-- ⏳ 6 years of experience in the software industry.
+- ⏳ 7 years of experience in the software industry.
 - 🎓 Degree and master's degree in computer engineering from [University of Salamanca](https://www.usal.es/).
 
 ## 📫 How to contact me
@@ -31,7 +31,7 @@ You can find a complete list of my personal projects, with a brief description a
 
 ### RTMP server and video streaming tools
 
-- 🎯 This project consists on multiple backend tools for developing video streaming platforms. This includes an **RTMP** (Real Time Messaging Protocol) server and several tools to encode and server streaming in the **HLS** (HTTP Live Streaming) format.
+- 🎯 This project consists on multiple backend tools for developing video streaming platforms. This includes a **RTMP** (Real Time Messaging Protocol) server and several tools to encode and server streaming in the **HLS** (HTTP Live Streaming) format.
 - 🛠 The tools were developed in the **Go** programming language.
 - 🧬 RTMP server: [rtmp-server](https://github.com/AgustinSRG/rtmp-server), [rtmp-server-rs](https://github.com/AgustinSRG/rtmp-server-rs)
 - 🧬 Streaming infrastructure tools: [tcp-video-streaming](https://github.com/AgustinSRG/tcp-video-streaming)
@@ -97,7 +97,7 @@ You can find a complete list of my personal projects, with a brief description a
 | Repository                                                                                   | Description                                                                                                                                                                                                                                                        |
 | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **[async-tools](https://github.com/AgustinSRG/async-tools)**                                 | JavaScript library that provides tools to work with asynchronous functions in JavaScript. It includes and async interval (waits for the async function to end before running it again), an async queue, an async semaphore and an async value provider.            |
-| **[javascript-object-sanitizer](https://github.com/AgustinSRG/javascript-object-sanitizer)** | JavaScript library that provides a convenient way to sanitize untrusted objects (for example, the ones provided by the user). Ensuring an object follows an schema allows for accessing its properties without the possibility of crashes or unexpected behaviors. |
+| **[javascript-object-sanitizer](https://github.com/AgustinSRG/javascript-object-sanitizer)** | JavaScript library that provides a convenient way to sanitize untrusted objects (for example, the ones provided by the user). Ensuring an object follows a schema allows for accessing its properties without the possibility of crashes or unexpected behaviors. |
 | **[request-browser](https://github.com/AgustinSRG/request-browser)**                         | Basic request library aimed to be used by the frontend of web applications to communicate with the backend. Made for the browser.                                                                                                                                  |
 | **[request-axios](https://github.com/AgustinSRG/request-axios)**                             | Basic request library aimed to be used by the frontend of web applications to communicate with the backend. Made for NodeJS with Axios.                                                                                                                            |
 | **[crystals-dilithium-js](https://github.com/AgustinSRG/crystals-dilithium-js)**             | Javascript implementation of post-quantum signature algorithm: CRYSTALS-Dilithium                                                                                                                                                                                  |
