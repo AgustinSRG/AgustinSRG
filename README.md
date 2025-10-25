@@ -27,7 +27,7 @@ You can find a complete list of my personal projects, with a brief description a
 - 🧬 Main repository: [PersonalMediaVault](https://github.com/AgustinSRG/PersonalMediaVault)
 - 🧬 Website source code: [pmv-site](https://github.com/AgustinSRG/pmv-site)
 - 🧬 CLI tool source code: [pmv-cli](https://github.com/AgustinSRG/pmv-cli)
-- 🧬 Encrypted storage library: [encrypted-storage](https://github.com/AgustinSRG/encrypted-storage)
+- 🧬 Encrypted storage library: [encrypted-storage](https://github.com/AgustinSRG/encrypted-storage), [pmv-encryption-rs](https://github.com/AgustinSRG/pmv-encryption-rs)
 
 ### RTMP server and video streaming tools
 
