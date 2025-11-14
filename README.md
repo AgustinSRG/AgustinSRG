@@ -31,7 +31,7 @@ You can find a complete list of my personal projects, with a brief description a
 
 ### RTMP server and video streaming tools
 
-- 🎯 This project consists on multiple backend tools for developing video streaming platforms. This includes a **RTMP** (Real Time Messaging Protocol) server and several tools to encode and server streaming in the **HLS** (HTTP Live Streaming) format.
+- 🎯 This project consists on multiple backend tools for developing video streaming platforms. This includes a **RTMP** (Real Time Messaging Protocol) server and several tools to encode and serve streaming in the **HLS** (HTTP Live Streaming) format.
 - 🛠 The tools were developed in the **Go** programming language.
 - 🧬 RTMP server: [rtmp-server](https://github.com/AgustinSRG/rtmp-server), [rtmp-server-rs](https://github.com/AgustinSRG/rtmp-server-rs)
 - 🧬 Streaming infrastructure tools: [tcp-video-streaming](https://github.com/AgustinSRG/tcp-video-streaming)
