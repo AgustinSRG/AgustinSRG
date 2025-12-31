@@ -22,12 +22,13 @@ You can find a complete list of my personal projects, with a brief description a
 ### Personal Media Vault
 
 - 🎯 PersonalMediaVault is an open source tool you can use to create an encrypted, easy to backup and easy to access media gallery. It is a privacy and usability focused project, prioritizing keeping media assets private while being able to access them in a convenient and efficient way.
-- 🛠 Developed as a web application in the **Go** programming language for the backend components, and **HTML** + **CSS** + **TypeScript** + **Vue** for the user interface. The project also includes a product website powered by **Hugo** + **Docsy** and a CLI tool developed in the **Rust** programming language.
+- 🛠 Developed as a web application in the **Go** programming language for the backend components, and **HTML** + **CSS** + **TypeScript** + **Vue** for the user interface. The project also includes an AI service developed with **Python**, a product website powered by **Hugo** + **Docsy** and a CLI tool developed in the **Rust** programming language.
 - 🌐 [PersonalMediaVault product website](https://agustinsrg.github.io/pmv-site/)
 - 🧬 Main repository: [PersonalMediaVault](https://github.com/AgustinSRG/PersonalMediaVault)
 - 🧬 Website source code: [pmv-site](https://github.com/AgustinSRG/pmv-site)
 - 🧬 CLI tool source code: [pmv-cli](https://github.com/AgustinSRG/pmv-cli)
 - 🧬 Encrypted storage library: [encrypted-storage](https://github.com/AgustinSRG/encrypted-storage), [pmv-encryption-rs](https://github.com/AgustinSRG/pmv-encryption-rs)
+- 🧬 AI service: [pmv-ai-service](https://github.com/AgustinSRG/pmv-ai-service)
 
 ### RTMP server and video streaming tools
 
